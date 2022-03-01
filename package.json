@@ -1,0 +1,21 @@
+{
+    "name": "shindig",
+    "displayName": "Shindig",
+    "description": "Shindig color theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.64.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Shindig",
+                "uiTheme": "vs-dark",
+                "path": "./themes/shindig-color-theme.json"
+            }
+        ]
+    }
+}
