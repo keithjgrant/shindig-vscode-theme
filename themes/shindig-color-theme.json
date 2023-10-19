@@ -564,7 +564,7 @@
     },
     {
       "name": "Variables",
-      "scope": "variable",
+      "scope": "meta.var,meta.embedded.expression,variable.other.object.property",
       "settings": {
         "foreground": "#78a4d3"
       }
@@ -666,7 +666,7 @@
       "name": "Type Name",
       "scope": "entity.name.type",
       "settings": {
-        "foreground": "#78a4d3"
+        "foreground": "#98A0A9"
       }
     },
     {
@@ -1286,9 +1286,16 @@
     },
     {
       "name": "ts primitive/builtin types",
-      "scope": "support.type.primitive.ts,support.type.builtin.ts,support.type.primitive.tsx,support.type.builtin.tsx",
+      "scope": "support.type.primitive.ts,support.type.builtin.ts,support.type.primitive.tsx,support.type.builtin.tsx,meta.type.annotation.tsx,meta.type.parameters.tsx",
       "settings": {
-        "foreground": "#78a4d3"
+        "foreground": "#727A83"
+      }
+    },
+    {
+      "name": "ts object definition",
+      "scope": "meta.object.type.tsx,meta.type.annotation,meta.type.parameters,meta.definition.property.tsx",
+      "settings": {
+        "foreground": "#98A0A9"
       }
     },
     {
